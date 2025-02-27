@@ -4,34 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Profesionální výživové poradenství pro zdravý životní styl">
-    <meta property="og:title" content="Výživový poradce - Zdravé stravování">
+    <meta property="og:title" content="Výživový poradce MUDr. Jan Novák - Zdravé stravování">
     <meta property="og:description" content="Pomáháme s výživou, dietami a zdravým životním stylem">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.example.com">
-    <meta property="og:image" content="https://www.example.com/logo.png">
-    <title>Výživový poradce</title>
+    <meta property="og:url" content="https://www.mudr-jannovak.com">
+    <meta property="og:image" content="https://www.mudr-jannovaklogo.png">
+    <meta property="og:image:type" content="image/webp">
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+        <title>Výživový poradce MUDr. Jan Novák</title>
+
     <link rel="stylesheet" href="style.css">
+
+    
+
 </head>
 <body>
-    <header>
-        <h1>Výživový poradce</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">O mně</a></li>
-                <li><a href="#services">Služby</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-            </ul>
-        </nav>
+    <header>    
+        <a href="#top" class="logo-link">
+            <img src="images/logo.png" alt="Logo" class="logo">
+        </a>
+        <h1 id="header_1">Výživový poradce MUDr. Jan Novák</h1>
     </header>
     
-    <section id="about">
-        <h2>O mně</h2>
-        <p>Jsem certifikovaný výživový poradce a pomáhám lidem najít správnou cestu ke zdravé stravě a lepšímu životnímu stylu.</p>
-    </section>
+    <nav>
+        <ul>
+            <li><a href="#about">O mně</a></li>
+            <li><a href="#services">Služby</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    
+    
+    
+    
     
     <section id="services">
-        <h2>Služby</h2>
+        <h2 id="services_heading">Služby</h2>
         <article>
             <h3>Individuální jídelní plán</h3>
             <p>Vytvořím vám plán na míru podle vašich cílů a preferencí.</p>
@@ -47,26 +57,59 @@
     </section>
     
     <section id="blog">
-        <h2>Nejnovější články</h2>
-        <article>
-            <h3>Jak správně sestavit zdravý jídelníček</h3>
-            <time datetime="2025-03-01">1. března 2025</time>
-            <p>Tipy a triky, jak vyvážit živiny ve vaší stravě.</p>
-        </article>
+        <h2 id="h2">Nejnovější články</h2>
+        <div class="recipe-container">
+            <div class="recipe">
+                <img src="images/protein_carbs_fats.jpg" alt="Smoothie" class="recipe-img">
+                <a href="https://www.loono.cz/bilkoviny-sacharidy-tuky" target="_blank" class="blog_text"><p>Bílkoviny, tuky, sacharidy, vláknina je klíčem ke zdravo výživě</p></a>
+            </div>
+            <div class="recipe">
+                <img src="images/ketodiet.jpg" alt="Ovesná kaše" class="recipe-img">
+                <a href="https://ntfy.cz/diety/keto?gad_source=1&gclid=CjwKCAiAt4C-BhBcEiwA8Kp0CawcxIE2bgScyvuEtw_QwTCz0HUNT1ufy3hGByUO6K4Fopc7mmjxlhoCXDsQAvD_BwE" target="_blank" class="blog_text"><p>Ketodieta, je opravdu tak zdravá?</p></a>
+            </div>
+            <div class="recipe">
+                <img src="images/water_and_sleep.jpg" alt="Zeleninový salát" class="recipe-img">
+                <a href="https://www.akcniceny.cz/magazin/piti-vody-pred-spanim-odbornici-varuji-pred-riziky-a-radi-kdy-se-vyhnout-hydrataci/" target="_blank" class="blog_text"><p>Pitný režim a spánek, souvisí spolu?</p></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <img src="images/portret.webp" alt="Portrét" class="about-img">
+            <div class="about-text">
+                <h2>MUDr. Jan Novák</h2>
+                <p>Jsem výživový poradce, který pomáhá lidem dosáhnout zdravějšího životního stylu.</p>
+            </div>
+        </div>
     </section>
     
-    <aside>
-        <h3>Tip na zdravý recept</h3>
-        <p>Vyzkoušejte smoothie z banánu, špenátu a mandlového mléka pro skvělý start dne.</p>
+    <aside class="recipe-section">
+        <h3>Tipy na zdravé recepty</h3>
+        <div class="recipe-container">
+            <div class="recipe">
+                <img src="images/smoothie.webp" alt="Smoothie" class="recipe-img">
+                <a href="https://jimezdrave.cz/recepty/podle-kategorie/napoje/bananove-smoothie-871/" target="_blank"><p>Banánové smoothie se špenátem a mandlovým mlékem</p></a>
+            </div>
+            <div class="recipe">
+                <img src="images/ovesna_lase.webp" alt="Ovesná kaše" class="recipe-img">
+                <a href="https://fresh.iprima.cz/recepty/perfektni-zpusob-jak-odstartovat-den-ovesna-kase-s-horkym-ovocem" target="_blank"><p>Ovesná kaše s lesním ovocem a oříšky</p></a>
+            </div>
+            <div class="recipe">
+                <img src="images/avocado.webp" alt="Zeleninový salát" class="recipe-img">
+                <a href="https://www.recepty.cz/zeleninovy-salat-kucharka" target="_blank"><p>Čerstvý zeleninový salát s avokádem a semínky</p></a>
+            </div>
+        </div>
     </aside>
+    
     
     <footer>
         <address>
             <p>Adresa: Nutriční centrum, Praha</p>
-            <p>Email: <a href="mailto:info@vyzivovy-poradce.cz">info@vyzivovy-poradce.cz</a></p>
+            <p>Email: <a href="mailto:info@mudrjannovak.cz">info@vmudrjannovak.cz</a></p>
             <p>Telefon: +420 123 456 789</p>
         </address>
-        <p>&copy; 2025 Výživový poradce</p>
+        <p>&copy; 2025 MUDR. Jan Novák</p>
         <ul>
             <li><a href="#">Facebook</a></li>
             <li><a href="#">Instagram</a></li>
