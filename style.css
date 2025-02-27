@@ -26,7 +26,9 @@ nav ul {
     margin: 0;}
 nav ul li {
     display: inline;
-    padding: 15px;}
+    padding: 15px;
+    font-size: 20px;
+    text-shadow: 2px 2px #3b3737;}
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -117,17 +119,14 @@ footer a {
     max-width: 600px;}
 #services_heading{
     font-size:3em;
-}
+    text-shadow: 2px 2px #3b3737}
 #h2{
-    text-align: center;
-}
+    text-align: center;}
 #blog{
-    background: #dff0d8;
-}
+    background: #dff0d8;}
 .blog_text{
     text-align: center;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
     
     
