@@ -8,14 +8,36 @@
     <meta property="og:description" content="Pomáháme s výživou, dietami a zdravým životním stylem">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.mudr-jannovak.com">
-    <meta property="og:image" content="https://www.mudr-jannovaklogo.png">
+    <meta property="og:image" content="https://www.mudr-jannovak.com/images/logo.png">
     <meta property="og:image:type" content="image/webp">
     <link rel="icon" href="images/logo.png" type="image/png">
 
         <title>Výživový poradce MUDr. Jan Novák</title>
 
     <link rel="stylesheet" href="style.css">
-
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Nutriční centrum Praha",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Vodičkova 710/31",
+            "addressLocality": "Praha",
+            "postalCode": "110 00",
+            "addressCountry": "CZ"
+          },
+          "email": "info@mudrjannovak.cz",
+          "telephone": "+420123456789",
+          "openingHours": [
+            "Mo-Fr 08:00-18:00",
+            "Sa 09:00-14:00"
+          ],
+          "image": "https://www.mudr-jannovak.com/images/logo.png"
+          "url": "https://www.mudr-jannovak.com"
+        }
+    </script>
+        
     
 
 </head>
@@ -82,7 +104,40 @@
                 <p>Jsem výživový poradce, který pomáhá lidem dosáhnout zdravějšího životního stylu.</p>
             </div>
         </div>
+        
     </section>
+    <section id="contact">
+        <h2>Kontakt</h2> <!-- Nadpis zůstane nahoře -->
+    
+        <div class="contact-container">
+            <!-- Kontaktní informace -->
+            <div class="contact-info">                <p><strong>Adresa:</strong> Nutriční centrum Praha</p>
+                <p>Vodičkova 710/31, 110 00 Nové Město, Praha</p>
+                <p><strong>Email:</strong> <a href="mailto:info@mudrjannovak.cz">info@mudrjannovak.cz</a></p>
+                <p><strong>Telefon:</strong> <a href="tel:420123456789">+420 123 456 789</a></p>
+            </div>
+    
+            <div class="opening-hours" itemscope itemtype="https://schema.org/OpeningHoursSpecification">
+                <h3>Otevírací doba</h3>
+                <p><strong>Pondělí - Pátek:</strong> <time itemprop="opens" datetime="08:00">8:00</time> - <time itemprop="closes" datetime="18:00">18:00</time></p>
+                <p><strong>Sobota:</strong> <time itemprop="opens" datetime="09:00">9:00</time> - <time itemprop="closes" datetime="14:00">14:00</time></p>
+                <p><strong>Neděle:</strong> Zavřeno</p>
+            </div>
+            
+    
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.1912022153095!2d14.423889315716485!3d50.08105557942692!2m3!1f0!2f0!3f0!3m2!1i1024!1i768!4f13.1!3m3!1m2!1s0x470b9493cf2d3f2d%3A0x68e66787ffb8c4e3!2sVodi%C4%8Dkova%20710%2F31%2C%20110%2000%20Nov%C3%A9%20M%C4%9Bsto%2C%20%C4%8Cesk%C3%A1%20republika!5e0!3m2!1scs!2scz!4v1644426508327!5m2!1scs!2scz" 
+                    width="100%" 
+                    height="200" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    
     
     <aside class="recipe-section">
         <h3>Tipy na zdravé recepty</h3>
@@ -106,9 +161,12 @@
     <footer>
         <address>
             <p>Adresa: Nutriční centrum, Praha</p>
-            <p>Email: <a href="mailto:info@mudrjannovak.cz">info@vmudrjannovak.cz</a></p>
+            <p>Email: <a href="mailto:info@mudrjannovak.cz">info@mudrjannovak.cz</a></p>
             <p>Telefon: <a href="tel:420123456789">+420 123 456 789</a></p>
         </address>
+        
+        
+    
         <p>&copy; 2025 MUDr. Jan Novák</p>
         <ul>
             <li><a target="_blank" href="https://www.facebook.com/">Facebook</a></li>
@@ -116,5 +174,6 @@
             <li><a target="_blank" href="https://cz.linkedin.com/">LinkedIn</a></li>
         </ul>
     </footer>
+    
 </body>
 </html>

@@ -33,7 +33,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;}
 section {
-    padding: 20px;
+    padding: 0px;
     background: white;}
 
 article {
@@ -58,15 +58,14 @@ footer a {
     color: white;
     text-decoration: none;}
 #about {
+    display: flex;
     padding: 50px;
-    text-align: center;
     background: white;}
 .about-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    max-width: 800px;
     margin: auto;} 
 .about-img {
     width: 150px; /* Nastav velikost portrétu */
@@ -80,7 +79,7 @@ footer a {
 .recipe-section {
     text-align: center;
     padding: 20px;
-    background: #dff0d8;
+    background: #ffffff;
     border-radius: 5px;}
 .recipe-container {
     display: flex;
@@ -121,11 +120,44 @@ footer a {
     text-shadow: 2px 2px #3b3737}
 #h2{
     text-align: center;}
-#blog{
-    background: #dff0d8;}
+#blog {
+    background: #dff0d8;
+    padding-top: 5px;
+    padding-bottom: 20px;}  
 .blog_text{
     text-align: center;
     text-decoration: none;}
-
-    
-    
+#contact {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: #dff0d8;
+    border-radius: 5px;} 
+#contact h2 {
+    margin-bottom: 30px;}   
+.contact-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: auto;
+        gap: 20px;
+    }
+.contact-info {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: left;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        min-height: 160px;
+    }
+.opening-hours {
+        background: #388E3C;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: left;
+        min-height: 160px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
